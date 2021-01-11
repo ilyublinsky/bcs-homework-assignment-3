@@ -24,6 +24,18 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
+        <!--Adding a card within the card with password options-->
+        <div class="card">
+          <div class="row">
+            <h3><Strong>Settings</Strong></h3>
+          <form>
+            <!--Added a rang between 6 and 20 characters-->
+            <label for="passwordLengthNumber">Password Character Length</label>
+          </form>
+          <input type="range" min="6" max="20" value="6" id="passwordLengthRange">
+          <input type="number" value="6" id="passwordLengthNumber">
+        </div>
+      </div>
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
