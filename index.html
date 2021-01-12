@@ -25,15 +25,26 @@
           ></textarea>
         </div>
         <!--Adding a card within the card with password options-->
-        <div class="card">
-          <div class="row">
             <h3><Strong>Settings</Strong></h3>
-          <form>
+          <div class="container">
+            <div class="row">
+          </div>
+          <form class="form">
             <!--Added a rang between 6 and 20 characters-->
             <label for="passwordLengthNumber">Password Character Length</label>
-          </form>
+          <div class="range-box">
           <input type="range" min="6" max="20" value="6" id="passwordLengthRange">
           <input type="number" value="6" id="passwordLengthNumber">
+          </div>
+          <!--Added a serries of checkbox options-->
+            <label for="mustIncludeUppercase">Must Include Uppercase</label>
+            <input type="checkbox" id="mustIncludeUppercase">
+            <label for="mustIncludeNumbers">Must Include Numbers</label>
+            <input type="checkbox" id="mustIncludeNumbers">
+
+            <label for="mustIncludeSymbols">Must Include Symbols</label>
+            <input type="checkbox" id="mustIncludeSymbols">
+          </form>
         </div>
       </div>
         <div class="card-footer">
