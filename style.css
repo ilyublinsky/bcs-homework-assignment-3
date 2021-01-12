@@ -53,6 +53,7 @@ header {
 
 .card-body {
   min-height: 100px;
+  word-break: break-all;
 }
 
 .container {
@@ -84,6 +85,10 @@ label {
 .range-box {
   display: flex;
   align-items: center;
+}
+
+.number-box {
+  width: 3rem;
 }
 
 .card-footer {
@@ -118,6 +123,12 @@ label {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+}
+
+/* Added button hover element */
+
+.btn:hover {
+  background-color: rgb(245, 72, 72);
 }
 
 button[disabled] {
