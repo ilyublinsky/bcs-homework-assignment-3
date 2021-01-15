@@ -60,11 +60,12 @@ header {
   text-align: left;
 }
 
-.form {
+/* styling for password generation options added */
+.form::-ms-fill {
   display: grid;
   grid-template-columns: auto auto;
   row-gap: .5rem;
-  column-gap: 8rem;
+  column-gap: 6rem;
   justify-content: center;
   align-items: right;
   border-radius: 5px;
