@@ -3,7 +3,7 @@ Password Generator
 
 ## Link
 
-https://ilyublinsky.github.io/bcs-homework-assignment-3/
+![Link] (https://ilyublinsky.github.io/bcs-homework-assignment-3/)
 
 ## User Story
 
@@ -37,7 +37,7 @@ THEN the password is either displayed in an alert or written to the page
 
 The following image shows the web application's appearance and functionality:
 
-<link rel="Final Outcome Image" href="./Assets/screenshots/passwordgen-pic-4.png"></link>
+![demo](./Assets/screenshots/passwordgen-pic-4.png)
 
 ## Future Improvements
 
