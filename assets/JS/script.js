@@ -8,7 +8,7 @@ var addLowercaseArr = addLowercase.split("");
 var number = "0123456789";
 var numberArr = number.split("");
 var symbol = "!#$%&\()*+,-./:;<=>?@^[\\]^_`{|}~";
-var symbolArr = sym.split("");
+var symbolArr = symbol.split("");
 
 //  Instructions
 
