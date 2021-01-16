@@ -3,7 +3,7 @@ Password Generator
 
 ## Link
 
-<link rel="Password Generator Link" href="https://ilyublinsky.github.io/bcs-homework-assignment-3/">
+https://ilyublinsky.github.io/bcs-homework-assignment-3/
 
 ## User Story
 
